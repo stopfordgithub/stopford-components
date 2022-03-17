@@ -1,13 +1,13 @@
 import React, {FC} from 'react';
-import {Button} from 'stopford-components'
+import { Button } from 'stopford-components';
 const Main:FC = () => {
 
     const buttonClick = () => {
-        
+        console.log('hello world')
       }
         return (
             <div>
-            <Button onClick={buttonClick} size="small" text='CANCEL' outline={false}  />
+            <Button onClick={buttonClick} size="medium" text="CANCEL" outline={false}  />
 
             </div>
         )
